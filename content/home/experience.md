@@ -22,28 +22,29 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Software Engineer
+    company: Cisco
     company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
-    date_end: ''
+    company_logo: cisco_round
+    location: Bengaluru, India
+    date_start: '2021-08-01'
+    date_end: '2021-11-30'
     description: |2-
-        Responsibilities include:
-        
-        * Analysing
-        * Modelling
-        * Deploying
+        * Joined the Bifrost Clients Team who work on the client-side of Cisco Webex (Webex Teams)
+        * Tackled the integration issues of the [Microsoft Adaptive Cards](https://adaptivecards.io/) feature into the Webex   Windows client
+        * Improved the accessibility of the feature and refactored it in order to accommodate theming
+        * Gained Exposure in C++ and Qt QML
 
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: Techinical Undergraduate Intern
+    company: Cisco
     company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    company_logo: cisco_round
+    location: Bengaluru, India
+    date_start: '2021-01-20'
+    date_end: '2021-07-02'
+    description: |2-
+        * Interned under the Bifrost Clients Team
+        * Added Qt QML support to [Microsoft Adaptive Cards](https://adaptivecards.io/), enabling applications built with Qt QML to use the Adaptive Cards feature
 
 design:
   columns: '2'
