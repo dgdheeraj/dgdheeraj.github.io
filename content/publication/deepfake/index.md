@@ -29,10 +29,10 @@ doi: ''
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *7th International Conference for Convergence in Technology (accepted for publication)*
-publication_short: In *I2CT (accepted for publication)*
+publication: In *7th International Conference for Convergence in Technology 2022*
+publication_short: In *I2CT*
 
-# abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Deepfakes have been a hot topic in the field of deep learning. It is typically used to alter the face or body of a person to create a fake image or video. With the rise of internet, the number of fake content especially deepfakes have increased exponentially. There have already been cases of these causing conflict and hatred among people. To keep this misinformation regulated, there needs to be a way to distinguish deepfakes from the rest. We therefore have come up with a model to classify deepfakes from pristine, accurately and quickly, so that anyone can upload an image/video to know whether it is genuine or not. The parameters taken into consideration for classifying deepfakes are face, audio and body language. The model for face consists of MMOD-CNN Face detector for pre-processing the input, which is then passed on to a Temporal Convolutional Network (TCN) to predict. For audio deepfake detection, audio converted into a spectrogram is passed to a ResNet50V2 followed by a TCN to predict. The Body Language model uses a vanilla TCN to predict if its a deepfake video or not.
 
 # Summary. An optional shortened abstract.
 summary: Implementation of 3 Deep Learning models to classify deepfakes based on face, audio and body language
@@ -53,7 +53,7 @@ url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9825423&isnumber=9823960'
 url_video: ''
 
 # Featured image
