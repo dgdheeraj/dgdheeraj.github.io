@@ -53,7 +53,7 @@ url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9825423&isnumber=9823960'
+url_source: 'https://ieeexplore.ieee.org/document/9825423'
 url_video: ''
 
 # Featured image
