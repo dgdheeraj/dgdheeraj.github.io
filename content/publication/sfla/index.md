@@ -28,10 +28,10 @@ doi: ''
 publication_types: ['1']
 
 # Publication name and optional abbreviated publication name.
-publication: In *2022 Fifth International Conference on Computational Intelligence and Communication Technologies (accepted for publication)*
-publication_short: In *CCICT 2022 (accepted for publication)*
+publication: In *2022 Fifth International Conference on Computational Intelligence and Communication Technologies*
+publication_short: In *CCICT 2022*
 
-# abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Shuffled Frog Leaping Algorithm(SFLA) is a very popular population-based meta-heuristic algorithm, created by Eusuff and Lansey in 2006. Because of its limited variables and easiness in implementation, it is used in memetics and particle swarm optimization to give several use cases. We believe one unexplored application of this algorithm is in video games, primarily in the genre of action based video games. They involve optimizations in path planning and navigation where SFLA can be utilized. We also believe these games can serve as simulations for real-life scenarios of navigation, thereby giving a virtual environment to enhance this algorithm further. Finally, we compare this method with popular nature based ones such as BFA and SPPSO algorithms and conclude on their optimization efficiency for action maze video games like Pac-Man.
 
 # Summary. An optional shortened abstract.
 summary: Improved the Shuffled Frog Leaping Algorithm - a nature inspired algorithm and shown it with application in Ms PacMan
@@ -51,7 +51,7 @@ url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: ''
+url_source: 'https://ieeexplore.ieee.org/document/9913572'
 url_video: ''
 
 # Featured image

@@ -14,10 +14,11 @@ organizations:
     url: https://www.usc.edu//
 
 # Short bio (displayed in user profile at end of posts)
-bio: My interests include machine learning, computer vision and cloud computing.
+bio: My interests include fullstack development and cloud computing.
 
 # Interests to show in About widget
 interests:
+  - Fullstack Development
   - Machine Learning
   - Cloud Computing
   - Computer Vision
@@ -67,4 +68,4 @@ email: 'gharde.dheeraj@gmail.com'
 highlight_name: true
 ---
 
-I’m a master's student pursuing Computer Science at the Viterbi School of Engineering, University of Southern California (USC). My interests lie at the juncture of machine learning, computer vision and cloud computing. Prior to USC, I was part of Cisco, India, where I worked on the Webex Teams Windows client. I graduated with a B.Tech in Computer Science and Engineering from PES University, India, in 2021.
+I’m a master's student pursuing Computer Science at the Viterbi School of Engineering, University of Southern California (USC). My interests lie at the juncture of fullstack development, cloud computing and machine learning . Prior to USC, I was part of Cisco, India, where I worked on the Webex Teams Windows client. I graduated with a B.Tech in Computer Science and Engineering from PES University, India, in 2021.
