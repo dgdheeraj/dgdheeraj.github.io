@@ -22,6 +22,29 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Full Stack Engineer Intern
+    company: Odoo
+    company_url: ''
+    company_logo: Odoo_logo_rgb
+    location: Buffalo, NY, USA
+    date_start: '2023-06-05'
+    date_end: ''
+    description: |2-
+        * Currently working on enabling Odoobot to perform CRUD operations using large language models.
+        * Gained exposure in JavaScript, PostgreSQL and Python
+
+  - title: Programmer Analyst Intern
+    company: USC Alzheimer’s Therapeutic Research Institute
+    company_url: ''
+    company_logo: usc
+    location: San Diego, CA, USA
+    date_start: '2023-05-01'
+    date_end: ''
+    description: |2-
+        * Actively contributing to the [APT Web Study](https://www.aptwebstudy.org/) site that assists in enrolling people into Alzheimer’s research studies.
+        * Gained exposure in React.js, PostgreSQL and Django
+        
+
   - title: Software Engineer
     company: Cisco
     company_url: ''
