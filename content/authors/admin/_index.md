@@ -68,7 +68,7 @@ email: 'gharde.dheeraj@gmail.com'
 highlight_name: true
 ---
 
-I’m a master's student pursuing Computer Science at the Viterbi School of Engineering, University of Southern California (USC). My interests lie at the juncture of fullstack development and machine learning . Prior to USC, I was part of Cisco, India, where I worked on the Webex Teams Windows client. As a Full Stack Engineer Intern at Odoo Inc., I am currently working on the in-house chatbot. At the USC Alzheimer's Therapeutic Research Institute, I am actively contributing to the APT Web Study site. 
+I’m a master's student pursuing Computer Science at the Viterbi School of Engineering, University of Southern California (USC) graduating in December, 2023. My interests lie at the juncture of fullstack development and machine learning . Prior to USC, I was part of Cisco, India, where I worked on the Webex Teams Windows client. As a Full Stack Engineer Intern at Odoo Inc., I worked on the in-house chatbot. At the USC Alzheimer's Therapeutic Research Institute, I am actively contributing to the [APT (The Alzheimer Prevention Trials) Web Study site](https://www.aptwebstudy.org/). 
 
 I am actively seeking full-time opportunities in the field of software engineering.
 If you believe that my skills and experience align with the requirements of a software engineering role within your organization, I would greatly appreciate the opportunity to connect and discuss further. Please feel free to [reach out to me](mailto:gharde.dheeraj@gmail.com) if you would like to explore how I can contribute to your team's success. 

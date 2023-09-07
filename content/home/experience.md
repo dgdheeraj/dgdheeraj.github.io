@@ -22,16 +22,6 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Full Stack Engineer Intern
-    company: Odoo
-    company_url: ''
-    company_logo: Odoo_logo_rgb
-    location: Buffalo, NY, USA
-    date_start: '2023-06-05'
-    date_end: ''
-    description: |2-
-        * Currently working on enabling Odoobot to perform CRUD operations using large language models.
-        * Gained exposure in JavaScript, PostgreSQL and Python
 
   - title: Programmer Analyst Intern
     company: USC Alzheimer’s Therapeutic Research Institute
@@ -42,7 +32,20 @@ experience:
     date_end: ''
     description: |2-
         * Actively contributing to the [APT Web Study](https://www.aptwebstudy.org/) site that assists in enrolling people into Alzheimer’s research studies.
+        * Implemented SQL scripts to assist migrating data to a datalake.
         * Gained exposure in React.js, PostgreSQL and Django
+
+  - title: Full Stack Engineer Intern
+    company: Odoo
+    company_url: ''
+    company_logo: Odoo_logo_rgb
+    location: Buffalo, NY, USA
+    date_start: '2023-06-05'
+    date_end: '2023-08-18'
+    description: |2-
+        * Integrated OdooBot with GPT 3.5 to perform CRUD operations on the Odoo database via Odoo’s ORM framework.
+        * Improved performance by 50% on complex CRUD operations by employing Chain of Thought.
+        * Gained exposure in JavaScript, PostgreSQL and Python
         
 
   - title: Software Engineer
