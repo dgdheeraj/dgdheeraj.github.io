@@ -8,9 +8,9 @@ date: '2020-05-01T00:00:00Z'
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
-# image:
+image:
 #   caption: Photo by rawpixel on Unsplash
-#   focal_point: Smart
+  focal_point: Smart
 
 links:
   - icon: github
@@ -31,8 +31,6 @@ slides: ""
 ---
 A Web Application built to improve one's Vocabulary Skills.
 Built using AngularJS and Flask
-
-<img width="650" alt="image" src="https://user-images.githubusercontent.com/45272841/159606681-64f9b8de-cc4e-4bbe-a4e7-848a4116bae8.png">
 
 # Features of the Web-App
 1. Learn Synonyms and Meanings
