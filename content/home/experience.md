@@ -29,9 +29,10 @@ experience:
     company_logo: usc
     location: San Diego, CA, USA
     date_start: '2023-05-01'
-    date_end: ''
+    date_end: '2023-12-13'
     description: |2-
-        * Actively contributing to the [APT Web Study](https://www.aptwebstudy.org/) site that assists in enrolling people into Alzheimer’s research studies.
+        * Incorporated a third-party study into the [APT Webstudy platform](https://www.aptwebstudy.org/) used to enroll candidates into clinical trials for Alzheimer's.
+        * Added Account Management which provides profile-based access control to an internal platform.
         * Implemented SQL scripts to assist migrating data to a datalake.
         * Gained exposure in React.js, PostgreSQL and Django
 
