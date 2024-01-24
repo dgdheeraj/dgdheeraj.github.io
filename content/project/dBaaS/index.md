@@ -3,7 +3,7 @@ title: Mini dBaaS for Rideshare APIs
 summary: ' '
 # tags:
 #   - Deep Learning
-date: '2019-05-01T00:00:00Z'
+date: '2021-06-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''

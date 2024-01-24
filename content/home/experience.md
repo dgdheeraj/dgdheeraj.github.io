@@ -31,9 +31,9 @@ experience:
     date_start: '2023-05-01'
     date_end: '2023-12-13'
     description: |2-
-        * Incorporated a third-party study into the [APT Webstudy platform](https://www.aptwebstudy.org/) used to enroll candidates into clinical trials for Alzheimer's.
-        * Added Account Management which provides profile-based access control to an internal platform.
+        * Formulated and implemented end-to-end flows for a third-party study into the [APT Webstudy platform](https://www.aptwebstudy.org/), facilitating the enrollment of over 500 candidates into clinical trials for Alzheimer's.
         * Implemented SQL scripts to assist migrating data to a datalake.
+        * Spearheaded creation of the Account Management feature which provides profile-based access control to an internal platform.
         * Gained exposure in React.js, PostgreSQL and Django
 
   - title: Full Stack Engineer Intern
@@ -57,11 +57,12 @@ experience:
     date_start: '2021-08-01'
     date_end: '2021-11-30'
     description: |2-
-        * Joined the Bifrost Clients Team who work on the client-side of Cisco Webex (Webex Teams)
-        * Tackled the integration issues of the [Microsoft Adaptive Cards](https://adaptivecards.io/) feature into the Webex   Windows client
-        * Improved the accessibility of the feature and refactored it in order to accommodate theming
+        * Developed the Cisco Webex (Webex Teams) Windows client using C++ and Qt as part of the Webex Clients Team.
+        * Collaborated with sister teams to integrate Microsoft Adaptive Cards – an open-source UI feature, into Webex Teams.
+        * Achieved a 20% increase in rendering speed by optimizing the rendering process of Adaptive Cards.
+        * Enhanced UI accessibility of Adaptive Cards and refactored codebase to personalize color-themed features.
         * Gained Exposure in C++ and Qt QML
-
+        
   - title: Techinical Undergraduate Intern
     company: Cisco
     company_url: ''
@@ -70,8 +71,8 @@ experience:
     date_start: '2021-01-20'
     date_end: '2021-07-02'
     description: |2-
-        * Interned under the Bifrost Clients Team
-        * Added Qt QML support to [Microsoft Adaptive Cards](https://adaptivecards.io/), enabling applications built with Qt QML to use the Adaptive Cards feature
+        * Conceptualized a UI renderer using C++, JavaScript and Qt QML for Microsoft Adaptive Cards.
+        * Added Qt QML support to Adaptive Cards, enabling applications built with Qt framework to leverage Adaptive Cards.
 
 design:
   columns: '2'
