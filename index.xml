@@ -53,18 +53,16 @@ Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check
 synchronised using get_sql_stmts api in the Orchestrator, which retrieves the saved sql statements, all these statements are written into the database.&lt;/p>
 &lt;p>Child container consumes messages from ReadQ and SyncQ. All messages from SyncQ fanout exchange are written into the Database.The requests from the ReadQ are consumed by slaves in Round-Robin fashion. All read db requests from ReadQ are executed on the database, and result is sent back on the ResponseQ.&lt;/p>
 &lt;p>Auto-Scaling is implemented using BackgroundScheduler, which calls a function (auto_scale) every 2 minutes. The scheduler is started after the first Read Request. Scaling Up/Down is performed based on the number of read requests received in the previous interval.&lt;/p>
-&lt;p>Apache Zookeeper is used to implement Fault Tolerance in Parent and Child containers. A watch is kept on these containers and leader-election is performed if parent container is faulty.&lt;/p></description></item><item><title>Deepfake Detection of Media using Deep Neural Networks</title><link>https://dgdheeraj.github.io/project/deepfake/</link><pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate><guid>https://dgdheeraj.github.io/project/deepfake/</guid><description>&lt;ul>
-&lt;li>
-&lt;p>3 different neural networks are used to detect any deformity/irregularity in media based on the person&amp;rsquo;s face, audio and body language.&lt;/p>
-&lt;/li>
-&lt;li>
+&lt;p>Apache Zookeeper is used to implement Fault Tolerance in Parent and Child containers. A watch is kept on these containers and leader-election is performed if parent container is faulty.&lt;/p></description></item><item><title>Deepfake Detection of Media using Deep Neural Networks</title><link>https://dgdheeraj.github.io/project/deepfake/</link><pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate><guid>https://dgdheeraj.github.io/project/deepfake/</guid><description>&lt;p>3 different neural networks are used to detect any deformity/irregularity in media based on the person&amp;rsquo;s face, audio and body language.&lt;/p>
+&lt;h2 id="face-deepfake-detection">Face Deepfake Detection&lt;/h2>
 &lt;p>The face deepfake model uses a Maximum Margin Object Detector (to extract the face) followed by a Temporal Neural Network for classification.
-&lt;img width="479" alt="Face" src="https://user-images.githubusercontent.com/45272841/155396030-f56278dc-960f-434e-a030-6d4d8493704d.png">&lt;/p>
-&lt;/li>
-&lt;li>
+&lt;img width="900" alt="Face" src="Face Deepfake Model.png">&lt;/p>
+&lt;h2 id="voice-deepfake-detection">Voice Deepfake Detection&lt;/h2>
 &lt;p>Input audio from media is converted into a spectrogram using the librosa library, and then fed to the model which comprises of ResNet50V2 followed by a Temporal Convolutional Network, which predicts whether the given audio is deepfake or not.&lt;/p>
-&lt;/li>
-&lt;/ul>
+&lt;img width="1500" alt="Voice" src="Audio Deepfake Model.png">
+&lt;h2 id="body-lanugage-deepfake-detection">Body Lanugage Deepfake Detection&lt;/h2>
+&lt;p>Frames are extracted from the input video at the rate of 5 fps which is passed to YOLOv3 to detect full body persons in it. The full body persons is cropped out of the frame to a size of 300x300 pixels. This serves as input to the TCN model that predicts if the frame is a deepfake or not.&lt;/p>
+&lt;img width="479" alt="Body" src="Body Deepfake Model.png">
 &lt;!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
 Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
