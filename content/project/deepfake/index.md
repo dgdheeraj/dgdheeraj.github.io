@@ -29,11 +29,23 @@ url_video: ''
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
-- 3 different neural networks are used to detect any deformity/irregularity in media based on the person's face, audio and body language.
-- The face deepfake model uses a Maximum Margin Object Detector (to extract the face) followed by a Temporal Neural Network for classification.
-<img width="479" alt="Face" src="https://user-images.githubusercontent.com/45272841/155396030-f56278dc-960f-434e-a030-6d4d8493704d.png">
+3 different neural networks are used to detect any deformity/irregularity in media based on the person's face, audio and body language.
 
-- Input audio from media is converted into a spectrogram using the librosa library, and then fed to the model which comprises of ResNet50V2 followed by a Temporal Convolutional Network, which predicts whether the given audio is deepfake or not.
+## Face Deepfake Detection
+The face deepfake model uses a Maximum Margin Object Detector (to extract the face) followed by a Temporal Neural Network for classification.
+<img width="900" alt="Face" src="Face Deepfake Model.png">
+
+## Voice Deepfake Detection
+Input audio from media is converted into a spectrogram using the librosa library, and then fed to the model which comprises of ResNet50V2 followed by a Temporal Convolutional Network, which predicts whether the given audio is deepfake or not.
+
+<img width="1500" alt="Voice" src="Audio Deepfake Model.png">
+
+## Body Lanugage Deepfake Detection
+Frames are extracted from the input video at the rate of 5 fps which is passed to YOLOv3 to detect full body persons in it. The full body persons is cropped out of the frame to a size of 300x300 pixels. This serves as input to the TCN model that predicts if the frame is a deepfake or not.
+
+<img width="479" alt="Body" src="Body Deepfake Model.png">
+
+
 <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
 
 Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
